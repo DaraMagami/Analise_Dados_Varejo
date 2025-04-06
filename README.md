@@ -17,13 +17,13 @@ Definir com quais fornecedores trabalhar, onde será a nova loja da rede e como 
 
 ## Objetivo 
 
-O propósito deste projeto, além de sua função didática como ferramenta de aprendizado em análise de dados, foi explorar, por meio de algumas perguntas objetivas, alguns aspectos de uma empresa do setor varejista localizada em Bangladesh, a fim de obter alguns inghts. Para este fim, foram mescladas seis tabelas com informações sobre clientes, lojas, transações bancárias, data e hora da compra, preços e produtos. Estes dados foram obtidos no repositório Kaggle e são fictícios.
+O propósito deste projeto, além de sua função didática como ferramenta de aprendizado em análise de dados, foi explorar, por meio de algumas perguntas objetivas, alguns aspectos de uma empresa do setor varejista localizada em Bangladesh, a fim de obter alguns insights. Para este fim, foram mescladas seis tabelas com informações sobre clientes, lojas, transações bancárias, data e hora da compra, preços e produtos. Estes dados foram obtidos no repositório Kaggle e são fictícios.
 
 ## Solução
 
 A partir da utilização do Jupyter Lab, empregando linguagem Python e comandos SQL, com o pacote SQLite3, o projeto foi desenvolvido em duas etapas: a de ETL (Extract, Transform, Load) e o EDA (Exploratory Data Analysis). 
 No decorrer da fase de ETL foram carregados os arquivos .csv, salvando-os em dataframes Pandas e realizando as alterações necessárias. Neste momento, foi observado o formato dos dados, alterando-os quando preciso e incluída uma nova coluna, com dados de população, na tabela de localização das lojas. Em seguida, foi feita a conversão para tabelas do Database SQL. 
-Em um segundo momento, já na fase de EDA, para melhor definir as análises e guiar a exploração dos dados, foram elaboradas12 perguntas objetivas, apresentadas no corpo da análise e respondidas logo abaixo. Alguns recursos diagnósticos a serem destacados foram a aplicação da correlação de Pearson com gráfico de dispersão e linha de tendência, análise de série temporal e gráfico de Pareto. 
+Em um segundo momento, já na fase de EDA, para melhor definir as análises e guiar a exploração dos dados, foram elaboradas 12 perguntas objetivas, apresentadas no corpo da análise e respondidas logo abaixo. Alguns recursos diagnósticos a serem destacados foram a aplicação da correlação de Pearson com gráfico de dispersão e linha de tendência, análise de série temporal e gráfico de Pareto. 
 
 ## Conclusões
 
